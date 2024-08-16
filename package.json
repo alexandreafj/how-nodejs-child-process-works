@@ -1,12 +1,30 @@
 {
   "name": "how-nodejs-child-process-works",
   "version": "1.0.0",
-  "description": "This README provides a comprehensive overview of child processes in Node.js and Linux, along with a simple example. It's a great resource for anyone looking to understand and use child processes in their Node.js applications.",
-  "main": "index.js",
+  "description": "A comprehensive guide and example of how child processes work in Node.js and Linux. This project demonstrates the use of child processes for parallel processing and inter-process communication.",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node main.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "nodejs",
+    "child-process",
+    "parallel-processing",
+    "ipc",
+    "linux",
+    "process-management"
+  ],
+  "author": "Alexandre Ferreira <lexanjos@icloud.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/how-nodejs-child-process-works.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/how-nodejs-child-process-works/issues"
+  },
+  "homepage": "https://github.com/yourusername/how-nodejs-child-process-works#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  }
 }
