@@ -4,7 +4,7 @@
   "description": "A comprehensive guide and example of how child processes work in Node.js and Linux. This project demonstrates the use of child processes for parallel processing and inter-process communication.",
   "main": "main.js",
   "scripts": {
-    "start": "node main.js",
+    "start:main": "node main.js",
     "start:index": "node src/index.js",
     "dev": "node --watch --no-warnings src/index.js",
     "seed": "node src/seed.js"
